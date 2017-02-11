@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.8'
 
   s.source_files = 'AFAmazonS3Manager'
+  s.public_header_files = 'AFAmazonS3Manager/*.h'
   s.requires_arc = true
 
   s.dependency 'AFNetworking/NSURLConnection', '~>2.4'
